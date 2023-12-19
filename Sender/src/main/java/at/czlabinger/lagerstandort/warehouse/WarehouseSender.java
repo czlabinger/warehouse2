@@ -62,6 +62,7 @@ public class WarehouseSender {
         try {
             ObjectMessage message = session.createObjectMessage(obj);
             producer.send(message);
+            System.out.println("Send data: " + obj.toString());
         } catch (JMSException e) {
             System.err.println("Error while sending Message: " + e);
         }
