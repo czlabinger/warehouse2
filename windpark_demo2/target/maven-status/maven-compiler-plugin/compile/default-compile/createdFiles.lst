@@ -1,6 +1,0 @@
-windpark/config/ActiveMQConfig.class
-windpark/jms/JmsProducer.class
-windpark/SpringBootStandaloneActivemqApplication.class
-windpark/model/WindengineData.class
-windpark/controller/ProduceMessageController.class
-windpark/jms/JmsConsumer.class
